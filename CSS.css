@@ -30,16 +30,6 @@ nav {
     background-size: cover;
 }
 
-.hero {
-    position: relative;
-    height: 100vh; /* Full screen height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background-color: #000; /* Dark background to match the photo */
-}
-
 .hero-image-bg {
     position: absolute;
     top: 0;
