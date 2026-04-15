@@ -90,10 +90,9 @@ footer { padding: 40px; background: #0a0a0a; text-align: center; }
 /* --- NEW ADDED FEATURES FOR MOBILE ADAPTATION --- */
 @media (max-width: 768px) {
     nav { padding: 15px 5%; }
-    .nav-links { display: none; } /* Standard for mobile */
-    
+  
     .hero-image-bg {
-        background-position: center; /* Centers your photo on phone screens */
+        background-position: auto-fit; /* Centers your photo on phone screens */
         opacity: 0.4; /* Slightly darker to make text easier to read on small screens */
     }
 
