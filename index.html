@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav>
-        <div class="logo">Akash<span>M</span></div>
+        <div class="logo">Akash<span style="color: #00d2ff;">M</span></div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -19,69 +19,112 @@
     </nav>
 
     <header class="hero">
-    <div class="hero-image-bg">
+        <div class="hero-image-bg"></div>
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Akash M</span></h1>
+            <p>Full Stack Developer | Java Specialist | Building Tomorrow's Solutions</p>
+            <code>Console.log("Innovation meets Execution");</code>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="mailto:Akash12nov02@gmail.com" class="btn secondary">Get In Touch</a>
+            </div>
         </div>
-    <div class="hero-content">
-        <h1>Hi, I'm <span class="highlight">Akash M</span></h1>
-        <p>Full Stack Developer</p>
-        <p><code>Console.log("Innovation meets Execution");</code></p>
-        <div class="cta-buttons">
-            <a href="#projects" class="btn primary">View Work</a>
-            <a href="mailto:Akash12nov02@gmail.com" class="btn secondary">Hire Me</a>
-        </div>
-    </div>
-</header>
+    </header>
+
     <section id="skills" class="section">
         <h2>Technical Stack</h2>
         <div class="skills-container">
-            <div class="skill-card"><h3>Backend</h3><p> Java (Core & Advanced), Spring Boot, Hibernate, J2EE, RESTful APIs, Servlets, JSP, MySQL</p></div>
-            <div class="skill-card"><h3>Frontend</h3><p> HTML5, CSS3, JavaScript, React.js, Bootstrap</p></div>
-            <div class="skill-card"><h3>Tools</h3><p> Git, GitHub, Maven, Postman, Eclipse, VS Code</p></div>
+            <div class="skill-card">
+                <h3>💻 Backend</h3>
+                <p>Java (Core & Advanced), Spring Boot, Hibernate, J2EE, RESTful APIs, Servlets, JSP, MySQL, Oracle SQL</p>
+            </div>
+            <div class="skill-card">
+                <h3>🎨 Frontend</h3>
+                <p>HTML5, CSS3, JavaScript, React.js, Redux, TypeScript, Bootstrap, Responsive Design</p>
+            </div>
+            <div class="skill-card">
+                <h3>⚙️ DevOps & Tools</h3>
+                <p>Git, GitHub, Maven, Jenkins, Docker, Postman, Eclipse, VS Code, Linux</p>
+            </div>
         </div>
     </section>
 
-    <section id="projects" class="section bg-light">
+    <section id="projects" class="section">
         <h2>Featured Projects</h2>
         <div class="project-grid">
             <div class="project-card">
-                <h3>Online Bus Reservation</h3>
-                <p>A full-stack system built with JSP, Servlets, and MySQL for seamless ticket booking.</p>
-                <span class="tech-tag">Java</span> <span class="tech-tag">JDBC</span> 
-                <span class="tech-tag">JSP</span> <span class="tech-tag">Servlets</span> <span class="tech-tag">MySQL</span>
+                <h3>🚌 Online Bus Reservation System</h3>
+                <p>A comprehensive full-stack system enabling seamless ticket booking with real-time availability, secure payment processing, and user-friendly interface. Built with enterprise-level architecture principles.</p>
+                <div>
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">JDBC</span>
+                    <span class="tech-tag">JSP</span>
+                    <span class="tech-tag">Servlets</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
             </div>
+
+            <div class="project-card">
+                <h3>💼 Job Portal Application</h3>
+                <p>A dynamic job matching platform with advanced filtering, candidate profiles, and employer dashboards. Implemented complex search algorithms and real-time notifications for an enhanced user experience.</p>
+                <div>
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">REST APIs</span>
+                    <span class="tech-tag">JWT Auth</span>
+                </div>
             </div>
-    </section>
-<section id="about" class="about-section">
-    <div class="container">
-        <h2>About Me</h2>
-        <p class="lead">
-            As a <strong>Full Stack Developer</strong> with a unique blend of technical expertise and business insight, I bridge the gap between complex requirements and high-performing digital solutions. My background, which includes a <strong>B.Com and an MBA in Finance</strong>, allows me to build applications that are not only technically sound but also strategically aligned with business goals.
-        </p>
-        
-        <p>
-            I recently completed an intensive Master Program in Full Stack Development at <strong>FITA Academy</strong>, where I gained hands-on experience in the following core areas:
-        </p>
 
-        <ul class="skills-list">
-            <li><strong>Robust Backend Development:</strong> Specializing in Java, Spring Boot, and Spring MVC to build scalable, enterprise-grade architectures.</li>
-            <li><strong>Modern Frontend Integration:</strong> Creating seamless, responsive Single Page Applications (SPA) using ReactJS, Redux, and TypeScript, built on a solid foundation of HTML5, CSS3, and JavaScript.</li>
-            <li><strong>Data-Driven Logic:</strong> Designing efficient data models and complex queries in MySQL and Oracle SQL.</li>
-            <li><strong>DevOps & Automation:</strong> Implementing CI/CD pipelines with Jenkins and managing version control via Git/GitHub.</li>
-            <li><strong>Business Efficiency:</strong> Leveraging Python for web scraping and automation to drive data accuracy and optimized workflows.</li>
-        </ul>
-
-        <p class="closing-statement">
-            I am passionate about building impactful software that solves real-world challenges. Whether I am optimizing a database or developing a full-scale web application like a <strong>Job Portal</strong>, I remain dedicated to technical excellence and continuous learning.
-        </p>
-    </div>
-</section>
-    <footer id="contact">
-        <p>Interested in collaborating?</p>
-        <p>Akash12nov02@gmail.com</p>
-        <div class="socials">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
+            <div class="project-card">
+                <h3>📊 Data Analytics Dashboard</h3>
+                <p>A real-time analytics platform for tracking business metrics with interactive visualizations. Features include custom reports, data export, and performance metrics tracking.</p>
+                <div>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">D3.js</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Chart.js</span>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="lead">
+                As a <strong>Full Stack Developer</strong> with a unique blend of technical expertise and business insight, I bridge the gap between complex requirements and high-performing digital solutions. My background, which includes a <strong>B.Com and an MBA in Finance</strong>, allows me to build applications that are not only technically sound but also strategically aligned with business goals.
+            </p>
+
+            <p>
+                I recently completed an intensive Master Program in Full Stack Development at <strong>FITA Academy</strong>, where I gained hands-on experience in cutting-edge technologies and best practices. My expertise spans across the entire development lifecycle:
+            </p>
+
+            <ul class="skills-list">
+                <li><strong>Robust Backend Development:</strong> Specializing in Java, Spring Boot, and Spring MVC to build scalable, enterprise-grade architectures with clean code principles.</li>
+                <li><strong>Modern Frontend Integration:</strong> Creating seamless, responsive Single Page Applications (SPA) using ReactJS, Redux, and TypeScript, built on a solid foundation of HTML5, CSS3, and JavaScript.</li>
+                <li><strong>Database Mastery:</strong> Designing efficient data models and writing complex queries in MySQL and Oracle SQL with optimization techniques.</li>
+                <li><strong>DevOps & Automation:</strong> Implementing CI/CD pipelines with Jenkins and managing version control via Git/GitHub for streamlined deployment.</li>
+                <li><strong>Business Efficiency:</strong> Leveraging Python for web scraping, automation, and data processing to drive accuracy and optimized workflows.</li>
+            </ul>
+
+            <p class="closing-statement">
+                I am passionate about building impactful software that solves real-world challenges and improves user experiences. Whether I am optimizing database queries, developing a full-scale web application, or mentoring junior developers, I remain dedicated to technical excellence, clean code practices, and continuous learning.
+            </p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Let's build something amazing together</p>
+        <p>Interested in collaborating? Reach out!</p>
+        <p><strong>Email:</strong> <a href="mailto:Akash12nov02@gmail.com" style="color: #00d2ff; text-decoration: none;">Akash12nov02@gmail.com</a></p>
+        <div class="socials">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+        <p style="margin-top: 40px; font-size: 0.9rem; color: #b0b8d4;">&copy; 2024 Akash M. All rights reserved.</p>
     </footer>
 
     <script src="main.js"></script>
